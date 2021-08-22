@@ -1,0 +1,15 @@
+Package: project3
+Title: STAT302 Project3
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Yining",
+           family = "Li",
+           role = c("aut", "cre"),
+           email = "lyn998745@gmail.com",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: This is a package for project3.
+License: GPL (>= 3)
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
