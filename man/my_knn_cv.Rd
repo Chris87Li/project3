@@ -25,7 +25,7 @@ Predict output class species using covariates
 bill_length_mm, bill_depth_mm, flipper_length_mm, and body_mass_g.
 }
 \examples{
-my_knn_cv(data_peng, test, k_nn = 1, k_cv = 5)
+my_knn_cv(my_penguins[, 3:6], my_penguins$species, 5, 5)
 
 }
 \keyword{prediction}

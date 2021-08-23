@@ -13,7 +13,7 @@
 #' @return cv_err: a numeric with the cross-validation misclassification error.
 #'
 #' @examples
-#' my_knn_cv(data_peng, test, k_nn = 1, k_cv = 5)
+#' my_knn_cv(my_penguins[, 3:6], my_penguins$species, 5, 5)
 #'
 #' @export
 my_knn_cv <- function(train, cl, k_nn, k_cv){
@@ -47,3 +47,5 @@ my_knn_cv <- function(train, cl, k_nn, k_cv){
   cvvlist <- list(predictions, "cv_err" = avg_cverr)
   return(cvvlist)
 }
+
+
