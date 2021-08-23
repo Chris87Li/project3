@@ -5,7 +5,7 @@
 [![R-CMD-check](https://github.com/Chris87Li/project3/workflows/R-CMD-check/badge.svg)](https://github.com/Chris87Li/project3/actions)
 <!-- badges: end -->
 
-The goal of project3 is to ...
+The goal of project3 is to demonstrating use of all of these functions using the gapminder data from the gapminder package.
 
 ## Installation
 
