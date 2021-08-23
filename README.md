@@ -14,3 +14,4 @@ You can install the released version of project3 from GitHub using:
 ``` r
 devtools::install_github("Chris87Li/projects")
 ```
+
